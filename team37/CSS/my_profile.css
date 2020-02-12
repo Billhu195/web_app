@@ -1,0 +1,180 @@
+body {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.emp-profile{
+    position: absolute;
+    left: 12%;
+    top: 10%;
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+#profile-img{
+    text-align: center;
+}
+
+#profile-img img{
+    width: 70%;
+    height: 100%;
+}
+
+#profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+#profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.profile-head h5{
+    color: #333;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 250%;
+    margin-bottom: 10px;
+}
+
+.profile-head h6{
+    /*font-family: "Big Caslon";*/
+    /*font-weight: bolder;*/
+    color: #1b1e21;
+    font-size:130%;
+}
+
+.profile-head h7{
+    color: #1b1e21;
+    font-size:100%;
+}
+
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+.profile-privacy{
+    border: none;
+    border-radius: 1.5rem;
+    width: 80%;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work a{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    margin-top: 10%;
+    font-family: cursive;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+.nav-link {
+    color: black;
+}
+.welcome-button {
+    box-shadow: 0 0 10px 0 #1c1b18;
+    height: 5vh;
+    width: 12vw;
+    margin-top: 3%;
+    margin-left: 27%;
+    background: linear-gradient(to right, darkslateblue, skyblue);
+    border-radius:42px;
+    border: 2px solid #333029;
+    cursor: pointer;
+    color: white;
+    font-family: Trebuchet MS, serif;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-shadow:0 1px 20px #ffffff;
+    padding: 6px;
+}
+
+/*
+second div*/
+#pinBoot {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    float:left;
+
+}
+
+.white-panel {
+    /*position: relative;*/
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    margin-right: 20%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.white-panel h1 {
+    font-size: 1em;
+    text-indent: 8px;
+}
+.white-panel h4 a{
+    color: #738da9;
+    text-indent: 8px;
+}
+.white-panel h2 {
+    font-size: 14px;
+    color:black;
+    float: right;
+}
+.white-panel p{
+    color: rgba(27, 5, 4, 0.84);
+    text-indent: 8px;
+}
+.white-panel:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+

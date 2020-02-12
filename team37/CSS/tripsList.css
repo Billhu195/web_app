@@ -1,0 +1,67 @@
+.container{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.createPlanButton {
+    position: absolute;
+    top: 5.5%;
+    left: 70%;
+    width: 18vw;
+    text-align: center;
+    box-shadow: 0 0 8px 0 #1c1b18;
+    margin: 1.5%;
+    background: linear-gradient(to bottom,skyblue, darkslateblue);
+    border-radius: 42px;
+    border: none;
+    cursor: pointer;
+    color:white;
+    font-family: Trebuchet MS, serif;
+    font-size: 120%;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow:0 1px 20px #ffffff;
+}
+
+#pinBoot {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+}
+
+.place {
+    border-radius: 5%;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.white-panel h1 {
+    font-size: 1em;
+}
+.white-panel h1 a {
+    color: #A92733;
+}
+.white-panel:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#white-panel-id {
+    background: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    height: max-content;
+    width: 40vw;
+    border-radius: 5%;
+    border-style: outset;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}

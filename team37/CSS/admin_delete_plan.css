@@ -1,0 +1,59 @@
+#pinBoot {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+}
+
+#main-message-container{
+    position: absolute;
+    font-family: cursive;
+    color: white;
+    top: 10%;
+    left: 38%;
+    right: 30%;
+}
+
+.container{
+    position: absolute;
+    top: 15%;
+    left: 200px;
+}
+.icon{
+    width: 10px;
+    height: 10px;
+    color: black;
+}
+
+.table-fixed tbody {
+    height: max-content;
+    max-height: 700px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.white-panel {
+    background: white;
+    height: max-content;
+    width: 50vw;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+    float: left;
+    position: relative;
+}
+
+.btn-outline-danger {
+    margin-left: 80%;
+}

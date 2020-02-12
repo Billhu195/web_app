@@ -1,0 +1,104 @@
+#welcome-basic-info {
+	background: rgba(255, 255, 255, 0.75);
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	height: max-content;
+	width: 30vw;
+	border-radius: 5%;
+	border-style: outset;
+	-webkit-animation: mymove 1s;
+	-webkit-animation-timing-function: ease;
+}
+
+
+.title-pic {
+	width: 100%;
+	border-radius: 2vh;
+	margin-top: 1px;
+}
+
+#message {
+	margin-top: 5%;
+	font-size: 150%;
+	font-weight: bolder;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	-webkit-animation: mymove 1s;
+	-webkit-animation-timing-function: ease;
+}
+
+.gender-choice {
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+.gender-icon {
+	width: 9%;
+	border-radius: 25%;
+}
+
+#buttons-container {
+	text-align: center;
+}
+
+.welcome-button  {
+	box-shadow: 0 0 8px 0 #1c1b18;
+	height: 5vh;
+	width: 22vw;
+	margin: 1.5%;
+	background: linear-gradient(to bottom,skyblue, darkslateblue);
+	border-radius: 42px;
+	border: none;
+	cursor: pointer;
+	color:white;
+	font-family: Trebuchet MS, serif;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-shadow:0 1px 20px #ffffff;
+	-webkit-animation: mymove 1s;
+	-webkit-animation-timing-function: ease;
+}
+
+.authorization-container {
+	height: 10vh;
+	width: 20vw;
+	margin-top: 2vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	-webkit-animation: mymove 1s;
+	-webkit-animation-timing-function: ease;
+}
+
+#incorrect_message {
+	color: red;
+	-webkit-animation: mymove 1s;
+	-webkit-animation-timing-function: ease;
+}
+
+.intro-container {
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	font-size: 10px;
+}
+
+@-webkit-keyframes mymove {
+	from {opacity: 0}
+	to {opacity: 1}
+}
+
+@keyframes mymove {
+	from {opacity: 0}
+	to {opacity: 1}
+}

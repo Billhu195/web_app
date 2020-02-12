@@ -1,0 +1,40 @@
+#table1{
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    right: 10%;
+}
+
+#main-message-container{
+    position: absolute;
+    font-family: cursive;
+    color: white;
+    top: 10%;
+    left: 38%;
+    right: 30%;
+}
+
+.table-fixed tbody {
+    height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+    float: left;
+    position: relative;
+}
+
+.pt-3-half {
+    padding-top: 1.4rem;
+}
